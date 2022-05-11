@@ -43,6 +43,7 @@ class Password():
                 hasNum = True;
             self.Password += char;
         
+        # Check if all types of chars in password, else gen new password
         if((hasLowerCase) & (hasUpperCase)
         & (hasSpecChar) & (hasNum)):
             return;
